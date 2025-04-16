@@ -1,0 +1,80 @@
+/* Register.css */
+.register-box {
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;  /* Réduction du padding */
+    border-radius: 10px;
+    width: 50%;  /* Réduire la largeur à 50% */
+  }
+  
+  .register-box input {
+    border-radius: 10px;
+  }
+  .register-box {
+    background-color: #fff;
+    border-radius: 1rem;
+  }
+  
+  
+  
+  h3 {
+    font-weight: 600;
+  }a/* Register.css */
+  .register-box {
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .register-box input {
+    border-radius: 10px;
+  }
+  
+  .register-box p {
+    color: #707070;
+  }
+  
+  h3 {
+    font-weight: 600;
+  }
+  
+  @media (max-width: 767px) {
+    .register-box {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .register-box {
+      width: 85%;
+    }
+  }
+  
+  /* Section vidéo */
+  .video-container {
+    height: 80vh;
+    padding: 20px 0;
+  }
+  
+  .video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.6);
+    border-radius: 20px;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .register-box {
+      width: 85%;  /* Réduire la largeur à 85% sur les petits écrans */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .register-box {
+      width: 75%;  /* Réduire encore la largeur sur les écrans moyens */
+    }
+  }
+  

@@ -1,0 +1,167 @@
+.hotel-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #3498db;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  .hotel-header {
+    margin-bottom: 30px;
+  }
+  
+  .hotel-header h1 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .star-rating {
+    margin-bottom: 10px;
+  }
+  
+  .star-rating span {
+    font-size: 1.5rem;
+    color: #ddd;
+  }
+  
+  .star-rating .filled {
+    color: #FFD700;
+  }
+  
+  .hotel-location {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .hotel-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+  }
+  
+  .hotel-description h2 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 25px;
+  }
+  
+  .amenities {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .amenities li {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .booking-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+  }
+  
+  .price-info {
+    margin-bottom: 20px;
+  }
+  
+  .price-info .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin: 5px 0;
+  }
+  
+  .price-info .date {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .reserve-button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .reserve-button:hover {
+    background: #c0392b;
+  }
+  
+  .not-found {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: #e74c3c;
+  }
+  
+  @media (max-width: 768px) {
+    .hotel-content {
+      grid-template-columns: 1fr;
+    }
+    
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
